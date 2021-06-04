@@ -1,0 +1,14 @@
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background: white;
+    position: absolute;
+    display: inline-block;
+    margin: 5px;
+}
+
+.box.selected {
+    border: 1px solid black;
+    background: gray;
+}

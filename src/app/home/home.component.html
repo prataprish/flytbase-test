@@ -1,0 +1,5 @@
+<div class="container">
+    <app-box *ngFor="let box of boxesService.boxes" [box]="box"></app-box>
+</div>
+<input type="checkbox" [formControl]="keyboardControl"> Keyboard Enabled
+<button class="fab" (click)="boxesService.addNewBox()">+</button>
